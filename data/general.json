@@ -118,6 +118,11 @@
                 "type": "He",
                 "gas_switch_time": "4/15/2026 13:55",
                 "notes": "Resumed pure He flow through IV after emptying and purging the H2 manifold and line"
+            },
+            {
+                "type": "He + 1000 ppm H2",
+                "gas_switch_time": "4/21/2026 13:18",
+                "notes": "Mixed 8.22 SCCM of 3.65% H2 in He with 21.78 SCCM of pure He to achieve 1000 ppm H2 at 30 SCCM"
             }
         ]
     },
@@ -627,20 +632,20 @@
                 "planned_sample_time": "4/15/2026 11:20",
                 "actual_sample_time": "4/15/2026 13:55",
                 "lsc_vials_filenames": {
-                    "1": "INIT_1L-FLB_IV_2-25_OV_2-15.csv",
-                    "2": "INIT_1L-FLB_IV_2-25_OV_2-15.csv",
-                    "3": "INIT_1L-FLB_IV_2-25_OV_2-15.csv",
-                    "4": "INIT_1L-FLB_IV_2-25_OV_2-15.csv"
+                    "1": "RE_1L-FLB_IV_2-25_2-26_OV_2-15_2-16.csv",
+                    "2": "RE_1L-FLB_IV_2-25_2-26_OV_2-15_2-16.csv",
+                    "3": "RE_1L-FLB_IV_2-25_2-26_OV_2-15_2-16.csv",
+                    "4": "RE_1L-FLB_IV_2-25_2-26_OV_2-15_2-16.csv"
                 }
             },
             "26": {
                 "planned_sample_time": "4/16/2026 11:20",
                 "actual_sample_time": "4/16/2026 16:00",
                 "lsc_vials_filenames": {
-                    "1": "INIT_1L-FLB_IV_2-26_OV_2-16.csv",
-                    "2": "INIT_1L-FLB_IV_2-26_OV_2-16.csv",
-                    "3": "INIT_1L-FLB_IV_2-26_OV_2-16.csv",
-                    "4": "INIT_1L-FLB_IV_2-26_OV_2-16.csv"
+                    "1": "RE_1L-FLB_IV_2-25_2-26_OV_2-15_2-16.csv",
+                    "2": "RE_1L-FLB_IV_2-25_2-26_OV_2-15_2-16.csv",
+                    "3": "RE_1L-FLB_IV_2-25_2-26_OV_2-15_2-16.csv",
+                    "4": "RE_1L-FLB_IV_2-25_2-26_OV_2-15_2-16.csv"
                 }
             }
         },
@@ -799,18 +804,28 @@
                 "planned_sample_time": "4/15/2026 11:20",
                 "actual_sample_time": "4/15/2026 13:55",
                 "lsc_vials_filenames": {
-                    "1": "INIT_1L-FLB_IV_2-25_OV_2-15.csv",
-                    "2": "INIT_1L-FLB_IV_2-25_OV_2-15.csv",
-                    "3": "INIT_1L-FLB_IV_2-25_OV_2-15.csv",
-                    "4": "INIT_1L-FLB_IV_2-25_OV_2-15.csv"
+                    "1": "RE_1L-FLB_IV_2-25_2-26_OV_2-15_2-16.csv",
+                    "2": "RE_1L-FLB_IV_2-25_2-26_OV_2-15_2-16.csv",
+                    "3": "RE_1L-FLB_IV_2-25_2-26_OV_2-15_2-16.csv",
+                    "4": "RE_1L-FLB_IV_2-25_2-26_OV_2-15_2-16.csv"
                 }
             },
             "16": {
                 "planned_sample_time": "4/16/2026 11:20",
                 "actual_sample_time": "4/16/2026 16:00",
                 "lsc_vials_filenames": {
-                    "1": "INIT_1L-FLB_IV_2-26_OV_2-16.csv",
-                    "2": "INIT_1L-FLB_IV_2-26_OV_2-16.csv",
+                    "1": "RE_1L-FLB_IV_2-25_2-26_OV_2-15_2-16.csv",
+                    "2": "RE_1L-FLB_IV_2-25_2-26_OV_2-15_2-16.csv",
+                    "3": "NONE",
+                    "4": "NONE"
+                }
+            },
+            "17": {
+                "planned_sample_time": "4/17/2026 11:20",
+                "actual_sample_time": "4/17/2026 14:40",
+                "lsc_vials_filenames": {
+                    "1": "INIT_1L-FLB_IV_OV_2-17.csv",
+                    "2": "INIT_1L-FLB_IV_OV_2-17.csv",
                     "3": "NONE",
                     "4": "NONE"
                 }
