@@ -1,0 +1,58 @@
+Assay Definition
+
+Assay Description:
+1L FLiBe BABY Experiment standard count, beginning with run FLB-1
+Assay Type: DPM (Single)
+Report Name: Standard report
+Output Data Path: C:\Packard\TriCarb\Results\Default\NEW_Flibe_Long\Various
+Raw Results Path: C:\Packard\Tricarb\Results\Default\NEW_Flibe_Long\20260504_1223\20260504_1223.results
+Comma-Delimited File Name: C:\Packard\TriCarb\Results\Default\NEW_Flibe_Long\Various\SHORT_1L-FLB_IV_2-33.csv
+Assay File Name: C:\Packard\TriCarb\Assays\NEW_Flibe_Long.lsa
+
+Additional Data Files Generated with this Protocol:
+Standard report
+		[Excel]	SHORT_1L-FLB_IV_2-33.csv
+
+
+Count Conditions
+
+Nuclide: LIBRA UG LLT NM      
+   Quench Indicator: tSIE
+   External Std Terminator (sec): 0.5 2s%
+   Pre-Count Delay (min): 0.00
+Quench Set:                   
+   Low Energy: 3H-UG-LLT-NM-C
+Count Time (min): 10.00
+Count Mode: Normal                                          
+Assay Count Cycles: 1         Repeat Sample Count: 1        
+Number of Vials/Sample: 1     Calculate % Reference: Off                                  
+
+
+Background Subtract: Off
+Low CPM Threshold: Off
+2 Sigma % Terminator: Off
+
+Regions         LL       UL
+A              0.5      5.0
+B              0.5     10.0
+C              0.0     18.6
+
+
+Count Corrections
+
+Static Controller: On         Luminescence Correction: On     GCT: n/a
+Colored Samples: Off          Heterogeneity Monitor: Off      PAC: Disabled
+Coincidence Time (nsec): 18   Delay Before Burst (nsec): 75   PAC Strength: n/a   Auxiliary Spectrum: n/a
+
+
+5/4/2026 12:29:04 PM:  Warning: User Has Modified Count Conditions.
+S#,SMPL_ID,Bq:1,CPMA,A:2S%,LUM,tSIE,Eff Nuc1 In A,Count Time,DPM1
+1,1L-FLB-IV_2-33-3,0.389,6.114,43.28,4,304.09,26.17,5,23.362
+5/4/2026 12:33:19 PM:  Warning: User Has Modified Count Conditions.
+2,1L-FLB-IV_2-33-1A,0.875,16.900,15.92,1,410.88,32.18,10,52.514
+3,1L-FLB-IV_2-33-1B,0.860,17.000,15.52,0,430.78,32.96,10,51.584
+5/4/2026 12:51:43 PM:  Warning: User Has Modified Count Conditions.
+5/4/2026 12:52:56 PM:  Warning: User Has Modified Count Conditions.
+4,1L-FLB-IV_2-33-2,0.566,8.466,50.00,0,289.42,24.91,2,33.981
+5,1L-FLB-IV_2-33-4,0.332,5.000,89.44,0,291.50,25.09,1,19.927
+5/4/2026 12:54:50 PM:  Warning: User Has Modified Count Conditions.

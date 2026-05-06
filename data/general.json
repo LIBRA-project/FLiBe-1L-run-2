@@ -44,6 +44,16 @@
                     "value": 750,
                     "unit": "C",
                     "set_time": "4/4/2026 01:45"
+                },
+                {
+                    "value": 22,
+                    "unit": "C",
+                    "set_time": "4/27/2026 17:20"
+                },
+                {
+                    "value": 750,
+                    "unit": "C",
+                    "set_time": "4/29/2026 12:40"
                 }
             ],
             "logs": {
@@ -120,9 +130,9 @@
                 "notes": "Resumed pure He flow through IV after emptying and purging the H2 manifold and line"
             },
             {
-                "type": "He + 1000 ppm H2",
+                "type": "He + 1% H2",
                 "gas_switch_time": "4/21/2026 13:18",
-                "notes": "Mixed 8.22 SCCM of 3.65% H2 in He with 21.78 SCCM of pure He to achieve 1000 ppm H2 at 30 SCCM"
+                "notes": "Mixed 8.22 SCCM of 3.65% H2 in He with 21.78 SCCM of pure He to achieve 1% H2 at 30 SCCM"
             }
         ]
     },
@@ -177,6 +187,11 @@
                 "value": 250,
                 "unit": "SCCM",
                 "set_time": "4/15/2026 13:55"
+            },
+            {
+                "value": 50,
+                "unit": "SCCM",
+                "set_time": "4/30/2026 14:07"
             }
         ],
         "flow_rate_air": {
@@ -186,7 +201,7 @@
         "switched_to": [
             {
                 "type": "He + H2O",
-                "gas_switch_time": "3/1/2026 19:00",
+                "gas_switch_time": "3/10/2026 19:00",
                 "notes": "Added humidifyer upstream from vessel, assume gas saturated with moisture"
             },
             {
@@ -198,6 +213,11 @@
                 "type": "He + H2O",
                 "gas_switch_time": "4/9/2026 13:10",
                 "notes": "Added humidifyer upstream from vessel, assume gas saturated with moisture"
+            },
+            {
+                "type": "He",
+                "gas_switch_time": "4/24/2026 16:12",
+                "notes": "Humidifyer removed"
             }
         ]
     },
@@ -792,10 +812,70 @@
                 "planned_sample_time": "4/21/2026 11:20",
                 "actual_sample_time": "4/21/2026 12:50",
                 "lsc_vials_filenames": {
-                    "1": "INIT_1L-FLB_IV_2-27_OV_2-18_2-19.csv",
-                    "2": "INIT_1L-FLB_IV_2-27_OV_2-18_2-19.csv",
-                    "3": "INIT_1L-FLB_IV_2-27_OV_2-18_2-19.csv",
-                    "4": "INIT_1L-FLB_IV_2-27_OV_2-18_2-19.csv"
+                    "1": "RE_1L-FLB_IV_2-27_2-28_OV_2-18_2-19.csv",
+                    "2": "RE_1L-FLB_IV_2-27_2-28_OV_2-18_2-19.csv",
+                    "3": "RE_1L-FLB_IV_2-27_2-28_OV_2-18_2-19.csv",
+                    "4": "RE_1L-FLB_IV_2-27_2-28_OV_2-18_2-19.csv"
+                }
+            },
+            "28": {
+                "planned_sample_time": "4/23/2026 11:20",
+                "actual_sample_time": "4/23/2026 10:52",
+                "lsc_vials_filenames": {
+                    "1": "RE_1L-FLB_IV_2-27_2-28_OV_2-18_2-19.csv",
+                    "2": "RE_1L-FLB_IV_2-27_2-28_OV_2-18_2-19.csv",
+                    "3": "RE_1L-FLB_IV_2-27_2-28_OV_2-18_2-19.csv",
+                    "4": "RE_1L-FLB_IV_2-27_2-28_OV_2-18_2-19.csv"
+                }
+            },
+            "29": {
+                "planned_sample_time": "4/27/2026 11:20",
+                "actual_sample_time": "4/27/2026 10:30",
+                "lsc_vials_filenames": {
+                    "1": "RE_1L-FLB_IV_2-29_2-30_2-31_OV_2-22.csv",
+                    "2": "RE_1L-FLB_IV_2-29_2-30_2-31_OV_2-22.csv",
+                    "3": "RE_1L-FLB_IV_2-29_2-30_2-31_OV_2-22.csv",
+                    "4": "RE_1L-FLB_IV_2-29_2-30_2-31_OV_2-22.csv"
+                }
+            },
+            "30": {
+                "planned_sample_time": "4/29/2026 11:20",
+                "actual_sample_time": "4/29/2026 12:24",
+                "lsc_vials_filenames": {
+                    "1": "RE_1L-FLB_IV_2-29_2-30_2-31_OV_2-22.csv",
+                    "2": "RE_1L-FLB_IV_2-29_2-30_2-31_OV_2-22.csv",
+                    "3": "RE_1L-FLB_IV_2-29_2-30_2-31_OV_2-22.csv",
+                    "4": "RE_1L-FLB_IV_2-29_2-30_2-31_OV_2-22.csv"
+                }
+            },
+            "31": {
+                "planned_sample_time": "4/30/2026 11:20",
+                "actual_sample_time": "4/30/2026 14:07",
+                "lsc_vials_filenames": {
+                    "1": "RE_1L-FLB_IV_2-29_2-30_2-31_OV_2-22.csv",
+                    "2": "RE_1L-FLB_IV_2-29_2-30_2-31_OV_2-22.csv",
+                    "3": "RE_1L-FLB_IV_2-29_2-30_2-31_OV_2-22.csv",
+                    "4": "RE_1L-FLB_IV_2-29_2-30_2-31_OV_2-22.csv"
+                }
+            },
+            "32": {
+                "planned_sample_time": "5/1/2026 11:20",
+                "actual_sample_time": "5/1/2026 12:30",
+                "lsc_vials_filenames": {
+                    "1": "RE_1L-FLB_IV_2-32.csv",
+                    "2": "RE_1L-FLB_IV_2-32.csv",
+                    "3": "RE_1L-FLB_IV_2-32.csv",
+                    "4": "RE_1L-FLB_IV_2-32.csv"
+                }
+            },
+            "33": {
+                "planned_sample_time": "5/4/2026 11:20",
+                "actual_sample_time": "5/4/2026 10:34",
+                "lsc_vials_filenames": {
+                    "1": "INIT_1L-FLB_IV_2-33.csv",
+                    "2": "INIT_1L-FLB_IV_2-33.csv",
+                    "3": "INIT_1L-FLB_IV_2-33.csv",
+                    "4": "INIT_1L-FLB_IV_2-33.csv"
                 }
             }
         },
@@ -984,8 +1064,8 @@
                 "planned_sample_time": "4/19/2026 11:20",
                 "actual_sample_time": "4/19/2026 21:55",
                 "lsc_vials_filenames": {
-                    "1": "INIT_1L-FLB_IV_2-27_OV_2-18_2-19.csv",
-                    "2": "INIT_1L-FLB_IV_2-27_OV_2-18_2-19.csv",
+                    "1": "RE_1L-FLB_IV_2-27_2-28_OV_2-18_2-19.csv",
+                    "2": "RE_1L-FLB_IV_2-27_2-28_OV_2-18_2-19.csv",
                     "3": "NONE",
                     "4": "NONE"
                 }
@@ -994,10 +1074,40 @@
                 "planned_sample_time": "4/21/2026 11:20",
                 "actual_sample_time": "4/21/2026 12:50",
                 "lsc_vials_filenames": {
-                    "1": "INIT_1L-FLB_IV_2-27_OV_2-18_2-19.csv",
-                    "2": "INIT_1L-FLB_IV_2-27_OV_2-18_2-19.csv",
+                    "1": "RE_1L-FLB_IV_2-27_2-28_OV_2-18_2-19.csv",
+                    "2": "RE_1L-FLB_IV_2-27_2-28_OV_2-18_2-19.csv",
                     "3": "NONE",
                     "4": "NONE"
+                }
+            },
+            "20": {
+                "planned_sample_time": "4/24/2026 11:20",
+                "actual_sample_time": "4/24/2026 16:12",
+                "lsc_vials_filenames": {
+                    "1": "RE_1L-FLB_OV_2-20.csv",
+                    "2": "RE_1L-FLB_OV_2-20.csv",
+                    "3": "RE_1L-FLB_OV_2-20.csv",
+                    "4": "RE_1L-FLB_OV_2-20.csv"
+                }
+            },
+            "21": {
+                "planned_sample_time": "4/27/2026 11:20",
+                "actual_sample_time": "4/27/2026 10:30",
+                "lsc_vials_filenames": {
+                    "1": "RE_1L-FLB_OV_2-21.csv",
+                    "2": "RE_1L-FLB_OV_2-21.csv",
+                    "3": "RE_1L-FLB_OV_2-21.csv",
+                    "4": "RE_1L-FLB_OV_2-21.csv"
+                }
+            },
+            "22": {
+                "planned_sample_time": "4/30/2026 11:20",
+                "actual_sample_time": "4/30/2026 14:07",
+                "lsc_vials_filenames": {
+                    "1": "RE_1L-FLB_IV_2-29_2-30_2-31_OV_2-22.csv",
+                    "2": "RE_1L-FLB_IV_2-29_2-30_2-31_OV_2-22.csv",
+                    "3": "RE_1L-FLB_IV_2-29_2-30_2-31_OV_2-22.csv",
+                    "4": "RE_1L-FLB_IV_2-29_2-30_2-31_OV_2-22.csv"
                 }
             }
         }
