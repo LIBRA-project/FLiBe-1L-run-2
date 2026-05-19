@@ -1,0 +1,65 @@
+Assay Definition
+
+Assay Description:
+1L BABY Experiment short count, beginning with run 1L-8
+Assay Type: DPM (Single)
+Report Name: Standard report
+Output Data Path: C:\Packard\Tricarb\Results\Default\LIBRA_short\20260513_1322\Replay_20260515_095155
+Raw Results Path: C:\Packard\Tricarb\Results\Default\LIBRA_short\20260513_1322\20260513_1322.results
+Comma-Delimited File Name: C:\Packard\Tricarb\Results\Default\LIBRA_short\20260513_1322\Replay_20260515_095155\RE_SOL_1L-FLB_IV_2-30_2-31_2-32.csv
+Assay File Name: C:\Packard\TriCarb\Assays\LIBRA_short.lsa
+
+Additional Data Files Generated with this Protocol:
+Standard report
+		[Excel]	RE_SOL_1L-FLB_IV_2-30_2-31_2-32.csv
+
+
+Count Conditions
+
+Nuclide: LIBRA UG LLT NM      
+   Quench Indicator: tSIE
+   External Std Terminator (sec): 0.5 2s%
+   Pre-Count Delay (min): 0.00
+Quench Set:                   
+   Low Energy: 3H-UG-LLT-NM-C
+Count Time (min): 100.00
+Count Mode: Normal                                          
+Assay Count Cycles: 1         Repeat Sample Count: 1        
+Number of Vials/Sample: 1     Calculate % Reference: Off                                  
+
+
+Background Subtract: Off
+Low CPM Threshold: Off
+2 Sigma % Terminator: Off
+
+Regions         LL       UL
+A              0.5      5.0
+B              0.5     10.0
+C              0.0     18.6
+
+
+Count Corrections
+
+Static Controller: On         Luminescence Correction: On     GCT: n/a
+Colored Samples: Off          Heterogeneity Monitor: Off      PAC: Disabled
+Coincidence Time (nsec): 18   Delay Before Burst (nsec): 75   PAC Strength: n/a   Auxiliary Spectrum: n/a
+
+
+Missing vial 1.
+Missing vial 2.
+Missing vial 3.
+Missing vial 4.
+Missing vial 5.
+Missing vial 6.
+Missing vial 7.
+Missing vial 8.
+Missing vial 9.
+S#,SMPL_ID,Bq:1,CPMA,A:2S%,LUM,tSIE,Eff Nuc1 In A,Count Time,DPM1
+10,1L-FLB-IV_2-30-1,0.875,14.380,5.29,0,320.10,27.38,100,52.523
+11,1L-FLB-IV_2-30-2,0.413,6.190,8.06,0,290.38,25.00,100,24.765
+Missing vial 12.
+13,1L-FLB-IV_2-31-1,0.757,11.890,5.82,0,304.03,26.17,100,45.439
+14,1L-FLB-IV_2-31-2,0.405,6.040,8.19,0,288.68,24.85,100,24.306
+Missing vial 15.
+16,1L-FLB-IV_2-32-1,0.787,12.160,5.74,0,299.29,25.76,100,47.205
+17,1L-FLB-IV_2-32-2,0.308,4.580,9.43,0,288.16,24.80,100,18.464
