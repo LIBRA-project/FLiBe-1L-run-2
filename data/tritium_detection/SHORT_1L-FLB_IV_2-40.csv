@@ -4,14 +4,14 @@ Assay Description:
 1L FLiBe BABY Experiment standard count, beginning with run FLB-1
 Assay Type: DPM (Single)
 Report Name: Standard report
-Output Data Path: C:\Packard\Tricarb\Results\Default\NEW_Flibe_Long\20260508_0335\Replay_20260509_145559
-Raw Results Path: C:\Packard\Tricarb\Results\Default\NEW_Flibe_Long\20260508_0335\20260508_0335.results
-Comma-Delimited File Name: C:\Packard\Tricarb\Results\Default\NEW_Flibe_Long\20260508_0335\Replay_20260509_145559\RE_1L-FLB_IV_2-33_2-34.csv
+Output Data Path: C:\Packard\TriCarb\Results\Default\NEW_Flibe_Long\Various
+Raw Results Path: C:\Packard\Tricarb\Results\Default\NEW_Flibe_Long\20260513_1117\20260513_1117.results
+Comma-Delimited File Name: C:\Packard\TriCarb\Results\Default\NEW_Flibe_Long\Various\SHORT_1L-FLB_IV_2-40.csv
 Assay File Name: C:\Packard\TriCarb\Assays\NEW_Flibe_Long.lsa
 
 Additional Data Files Generated with this Protocol:
 Standard report
-		[Excel]	RE_1L-FLB_IV_2-33_2-34.csv
+		[Excel]	SHORT_1L-FLB_IV_2-40.csv
 
 
 Count Conditions
@@ -22,7 +22,7 @@ Nuclide: LIBRA UG LLT NM
    Pre-Count Delay (min): 0.00
 Quench Set:                   
    Low Energy: 3H-UG-LLT-NM-C
-Count Time (min): 100.00
+Count Time (min): 5.00
 Count Mode: Normal                                          
 Assay Count Cycles: 1         Repeat Sample Count: 1        
 Number of Vials/Sample: 1     Calculate % Reference: Off                                  
@@ -46,16 +46,10 @@ Coincidence Time (nsec): 18   Delay Before Burst (nsec): 75   PAC Strength: n/a 
 
 
 S#,SMPL_ID,Bq:1,CPMA,A:2S%,LUM,tSIE,Eff Nuc1 In A,Count Time,DPM1
-1,1L-FLB-IV_2-33-1A_NF,0.892,17.320,4.82,0,414.89,32.36,100,53.524
-2,1L-FLB-IV_2-33-1B_F,0.862,17.020,4.85,0,429.18,32.92,100,51.702
-3,1L-FLB-IV_2-33-2,0.487,7.310,7.42,0,290.65,25.02,100,29.219
-4,1L-FLB-IV_2-33-3,0.280,4.380,9.64,0,303.05,26.08,100,16.793
-5,1L-FLB-IV_2-33-4,0.272,4.100,9.93,0,292.16,25.15,100,16.303
-Missing vial 6.
-7,1L-FLB-IV_2-34-1,0.777,12.200,5.74,0,303.98,26.16,100,46.632
-8,1L-FLB-IV_2-34-2,0.310,4.610,9.40,0,288.01,24.79,100,18.595
-9,1L-FLB-IV_2-34-3,0.273,4.480,9.53,0,318.81,27.30,100,16.408
-10,1L-FLB-IV_2-34-4,0.295,4.400,9.62,0,288.75,24.86,100,17.702
-Manually summed sample IV_2-33-1 by adding background subtracted Bq of -1B to raw -1A, and summed 2sigma:
-12,1L-FLB-IV_2-33-1,1.580,30.677,3.84,0,414.89,32.36,100,94.800
-
+1,1L-FLB-IV_2-40-4,0.505,7.600,32.44,0,291.51,25.09,5,30.288
+5/13/2026 11:24:22 AM:  Warning: User Has Modified Count Conditions.
+2,1L-FLB-IV_2-40-3,0.779,13.500,18.20,1,346.04,28.89,10,46.728
+5/13/2026 11:34:50 AM:  Warning: User Has Modified Count Conditions.
+3,1L-FLB-IV_2-40-2,0.572,8.600,30.50,0,290.87,25.04,5,34.348
+5/13/2026 11:40:02 AM:  Warning: User Has Modified Count Conditions.
+4,1L-FLB-IV_2-40-1,0.975,15.100,19.24,5,299.95,25.82,10,58.489

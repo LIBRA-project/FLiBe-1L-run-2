@@ -4,14 +4,14 @@ Assay Description:
 1L FLiBe BABY Experiment standard count, beginning with run FLB-1
 Assay Type: DPM (Single)
 Report Name: Standard report
-Output Data Path: C:\Packard\Tricarb\Results\Default\NEW_Flibe_Long\20260508_0335\Replay_20260509_145559
-Raw Results Path: C:\Packard\Tricarb\Results\Default\NEW_Flibe_Long\20260508_0335\20260508_0335.results
-Comma-Delimited File Name: C:\Packard\Tricarb\Results\Default\NEW_Flibe_Long\20260508_0335\Replay_20260509_145559\RE_1L-FLB_IV_2-33_2-34.csv
+Output Data Path: C:\Packard\TriCarb\Results\Default\NEW_Flibe_Long\Various
+Raw Results Path: C:\Packard\Tricarb\Results\Default\NEW_Flibe_Long\20260511_2106\20260511_2106.results
+Comma-Delimited File Name: C:\Packard\TriCarb\Results\Default\NEW_Flibe_Long\Various\INIT_1L-FLB_IV_2-38.csv
 Assay File Name: C:\Packard\TriCarb\Assays\NEW_Flibe_Long.lsa
 
 Additional Data Files Generated with this Protocol:
 Standard report
-		[Excel]	RE_1L-FLB_IV_2-33_2-34.csv
+		[Excel]	INIT_1L-FLB_IV_2-38.csv
 
 
 Count Conditions
@@ -46,16 +46,7 @@ Coincidence Time (nsec): 18   Delay Before Burst (nsec): 75   PAC Strength: n/a 
 
 
 S#,SMPL_ID,Bq:1,CPMA,A:2S%,LUM,tSIE,Eff Nuc1 In A,Count Time,DPM1
-1,1L-FLB-IV_2-33-1A_NF,0.892,17.320,4.82,0,414.89,32.36,100,53.524
-2,1L-FLB-IV_2-33-1B_F,0.862,17.020,4.85,0,429.18,32.92,100,51.702
-3,1L-FLB-IV_2-33-2,0.487,7.310,7.42,0,290.65,25.02,100,29.219
-4,1L-FLB-IV_2-33-3,0.280,4.380,9.64,0,303.05,26.08,100,16.793
-5,1L-FLB-IV_2-33-4,0.272,4.100,9.93,0,292.16,25.15,100,16.303
-Missing vial 6.
-7,1L-FLB-IV_2-34-1,0.777,12.200,5.74,0,303.98,26.16,100,46.632
-8,1L-FLB-IV_2-34-2,0.310,4.610,9.40,0,288.01,24.79,100,18.595
-9,1L-FLB-IV_2-34-3,0.273,4.480,9.53,0,318.81,27.30,100,16.408
-10,1L-FLB-IV_2-34-4,0.295,4.400,9.62,0,288.75,24.86,100,17.702
-Manually summed sample IV_2-33-1 by adding background subtracted Bq of -1B to raw -1A, and summed 2sigma:
-12,1L-FLB-IV_2-33-1,1.580,30.677,3.84,0,414.89,32.36,100,94.800
-
+1,1L-FLB-IV_2-38-1,1.143,18.930,4.67,1,323.89,27.60,100,68.580
+2,1L-FLB-IV_2-38-2,0.546,8.280,6.99,0,293.60,25.27,100,32.765
+3,1L-FLB-IV_2-38-3,0.351,5.610,8.70,0,309.64,26.65,100,21.052
+4,1L-FLB-IV_2-38-4,0.356,5.360,8.72,0,291.22,25.07,100,21.382
