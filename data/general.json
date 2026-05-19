@@ -62,7 +62,54 @@
                 "TC2_label": "SIDE TC",
                 "TC3_label": "OV SIDE",
                 "TC4_label": "FURNACE"
-            }
+            },
+            "filter_heaters": [
+                {
+                    "value": 22,
+                    "unit": "C",
+                    "set_time": "3/10/2026 11:20"
+                },
+                {
+                    "value": 100,
+                    "unit": "C",
+                    "set_time": "4/16/2026 16:17"
+                },
+                {
+                    "value": 200,
+                    "unit": "C",
+                    "set_time": "4/16/2026 19:18"
+                },
+                {
+                    "value": 325,
+                    "unit": "C",
+                    "set_time": "4/16/2026 19:49"
+                },
+                {
+                    "value": 22,
+                    "unit": "C",
+                    "set_time": "4/20/2026 14:54"
+                },
+                {
+                    "value": 325,
+                    "unit": "C",
+                    "set_time": "4/24/2026 16:12"
+                },
+                {
+                    "value": 22,
+                    "unit": "C",
+                    "set_time": "4/27/2026 10:44"
+                },
+                {
+                    "value": 325,
+                    "unit": "C",
+                    "set_time": "5/11/2026 10:52"
+                },
+                {
+                    "value": 22,
+                    "unit": "C",
+                    "set_time": "5/18/2026 10:26"
+                }
+            ]
         },
         "purpose_of_run": "Replication of Run 1."
     },
