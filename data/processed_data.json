@@ -28,7 +28,7 @@
         "unit": "particle / neutron"
     },
     "TBR_used_in_model": {
-        "value": 0.002492485202052009,
+        "value": 0.003228631349635758,
         "unit": "particle / neutron"
     },
     "k_top": {
@@ -360,5 +360,9 @@
                 "unit": "day"
             }
         }
+    },
+    "measured_TBR_error": {
+        "value": 0.00020730848230934184,
+        "unit": "particle / neutron"
     }
 }
