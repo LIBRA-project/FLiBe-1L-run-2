@@ -1,6 +1,6 @@
 # libra-run-template
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.INSERT-DOI.svg)](https://doi.org/10.5281/zenodo.INSERT-DOI)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20291367.svg)](https://doi.org/10.5281/zenodo.20291367)
 
 This is a template repository for experimental runs of LIBRA.
 
@@ -23,7 +23,7 @@ conda env create -f environment.yml
 2. Run the notebooks with the created environment `[INSERT NAME OF ENV]`
 
 ## Todo list:
-- [ ] [Link to Zenodo](https://zenodo.org/)
+- [x] [Link to Zenodo](https://zenodo.org/)
 - [ ] Change environment name in [`environment.yml`](environment.yml)
 - [ ] Change environment name in [CI workflows](.github/workflows)
 - [ ] Modify [binder](https://mybinder.org/) badge by inserting the repo name
@@ -35,6 +35,6 @@ conda env create -f environment.yml
 - [ ] Add the right version tags to [`environment.yml`](environment.yml)
 - [ ] Add and update information in the README
 - [ ] Add all analysis to [CI workflows](.github/workflows)
-- [ ] Make first release on GitHub
-- [ ] Update Zenodo badge with new DOI
-- [ ] Link Zenodo record (created automatically) to the [LIBRA-project Zenodo community](https://zenodo.org/communities/libra-project/records)
+- [x] Make first release on GitHub
+- [x] Update Zenodo badge with new DOI
+- [x] Link Zenodo record (created automatically) to the [LIBRA-project Zenodo community](https://zenodo.org/communities/libra-project/records)
