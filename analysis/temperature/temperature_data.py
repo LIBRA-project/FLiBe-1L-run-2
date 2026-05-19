@@ -230,6 +230,10 @@ def load_temperature_data(temp_csv_path=None, general_json_path=None):
     # Create DipHeaterSetpoints object
     dip_setpoints = general_data['general_data']['temperature']['dip_setpoints']
     dip_heater = DipHeaterSetpoints(dip_setpoints, start_time)
+
+    # Create Filter heater setpoints object (same structure as dip setpoints)
+    filter_setpoints = general_data['general_data']['temperature'].get('filter_heaters', [])
+    filter_heater = DipHeaterSetpoints(filter_setpoints, start_time)
     
     return {
         'TC1': temp_streams['TC1'],
@@ -237,6 +241,7 @@ def load_temperature_data(temp_csv_path=None, general_json_path=None):
         'TC3': temp_streams['TC3'],
         'TC4': temp_streams['TC4'],
         'dip_heater': dip_heater,
+        'filter_heater': filter_heater,
         'start_time': start_time,
         'tc_labels': tc_labels
     }
